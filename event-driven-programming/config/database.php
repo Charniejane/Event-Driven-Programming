@@ -4,7 +4,7 @@ $servername = "localhost";
 $username = "root";
 $password = ""; // Default Password: Blank | Empty
 
-$database_name = "db_edp"; 
+$database_name = "db_edp"; //change database name
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database_name);
